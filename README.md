@@ -1,4 +1,6 @@
-//Tested on Ubuntu 16.04
+A very simple Inventory application written in C++11 / MySQL 8.0
+
+Tested on Ubuntu 16.04
 
 //install MySQL 8.0 from the MySQL website
 https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/
@@ -32,7 +34,7 @@ employe_id INT UNSIGNED,
 type VARCHAR(10), 
 vendor VARCHAR(20), 
 cpu VARCHAR(20), 
-purchase DATE, 
+purchase_date DATE, 
 warranty YEAR, 
 PRIMARY KEY (id), 
 FOREIGN KEY (employe_id) REFERENCES employe(id)); 
