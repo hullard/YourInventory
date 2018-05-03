@@ -50,7 +50,7 @@ SQL::SQL(const sql::SQLString& hostName, const sql::SQLString& userName, const s
 }
 
 // add entry to table "employe"
-void SQL::addEmploye(const employe_t& employe)
+void SQL::addEmploye(const Employe& employe)
 {
     try
     {
@@ -74,7 +74,7 @@ void SQL::addEmploye(const employe_t& employe)
 }
 
 // add entry to table "computer"
-void SQL::addComputer(const computer_t& computer)
+void SQL::addComputer(const Computer& computer)
 {
     try
     {

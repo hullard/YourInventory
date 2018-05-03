@@ -15,11 +15,13 @@ struct Employe
 {
     std::string firstName;
     std::string lastName;
-    // sex code as per ISO/IEC 5218, 0 = not known, 1 = male, 2 = female, 9 = not applicable
+    /* sex code as per ISO/IEC 5218,
+     0 = not known,
+     1 = male,
+     2 = female,
+     9 = not applicable */
     unsigned int sex;
 };
-
-typedef Employe employe_t;
 
 // entity of "computer"
 struct Computer
@@ -32,8 +34,6 @@ struct Computer
     unsigned int warranty;
 };
 
-typedef Computer computer_t;
-
 // SQL database handling class
 class SQL
 {
@@ -45,10 +45,10 @@ public:
     SQL(const sql::SQLString& hostName, const sql::SQLString& userName, const sql::SQLString& password, const sql::SQLString& schema);
 
     // add entry to table "employe"
-    void addEmploye(const employe_t& employe);
+    void addEmploye(const Employe& employe);
 
     // add entry to table "computer"
-    void addComputer(const computer_t& computer);
+    void addComputer(const Computer& computer);
 
     // close connection by desctructor
     virtual ~SQL();

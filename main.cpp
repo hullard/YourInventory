@@ -3,14 +3,22 @@
 #include <iostream>
 
 #include "sql.h"
+#include "gui.h"
 
-int main()
+#include <gtk/gtk.h>
+
+int main(int argc, char* argv[])
 {
     // new instance of SQL class to initiate connection
     SQL* Sql = new SQL("inventory", "1234");
 
+    // create window by GTK3
+    GUI* Gui = new GUI(argc, argv);
+
+
+/*
     // insert new entry to "employe" table
-    employe_t employe1;
+    Employe employe1;
     employe1.firstName  = "Janos";
     employe1.lastName   = "Nagy";
     employe1.sex        =  1;
@@ -18,7 +26,7 @@ int main()
     Sql->addEmploye(employe1);
 
     // insert new entry to "computer" table
-    computer_t computer1;
+    Computer computer1;
     computer1.name          = "OFFICE01";
     computer1.type          = "desktop";
     computer1.vendor        = "ASUS";
@@ -27,8 +35,9 @@ int main()
     computer1.warranty      = 3;
 
     Sql->addComputer(computer1);
+*/
 
-    std::cout << "Two entries added to Inventory" << std::endl;
+    //std::cout << "Two entries added to Inventory" << std::endl;
 
     return 0;
 }
