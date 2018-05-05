@@ -13,9 +13,13 @@ public:
 protected:
 
 private:
-    GtkWidget *window;
-    const unsigned int SCR_WIDTH = 800;
-    const unsigned int SCR_HEIGHT = 600;
+    GtkBuilder* builder;
+    GObject* window;
+    GObject* button;
+
+    static void on_buttonNewEntry_clicked(GtkWidget *widget, gpointer data);
+    static void on_buttonNewQuery_clicked(GtkWidget *widget, gpointer data);
+    static void on_buttonQuit_clicked(GtkWidget *widget, gpointer data);
 };
 
 #endif // GUI_H

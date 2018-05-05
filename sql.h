@@ -15,12 +15,12 @@ struct Employe
 {
     std::string firstName;
     std::string lastName;
+    unsigned int sex;
     /* sex code as per ISO/IEC 5218,
      0 = not known,
      1 = male,
      2 = female,
      9 = not applicable */
-    unsigned int sex;
 };
 
 // entity of "computer"
