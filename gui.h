@@ -17,9 +17,14 @@ private:
     GObject* window;
     GObject* button;
 
-    static void on_buttonNewEntry_clicked(GtkWidget *widget, gpointer data);
-    static void on_buttonNewQuery_clicked(GtkWidget *widget, gpointer data);
+    // handlers connected to clicked signals
+    static void on_buttonFindEmploye_clicked(GtkWidget *widget, gpointer data);
+    static void on_buttonAddEmploye_clicked(GtkWidget *widget, gpointer data);
+    static void on_buttonFindComputer_clicked(GtkWidget *widget, gpointer data);
+    static void on_buttonAddComputer_clicked(GtkWidget *widget, gpointer data);
     static void on_buttonQuit_clicked(GtkWidget *widget, gpointer data);
+
+    //void connectSignals();
 };
 
 #endif // GUI_H

@@ -16,6 +16,8 @@ int main(int argc, char* argv[])
     GUI* Gui = new GUI(argc, argv);
 
 
+
+
 /*
     // insert new entry to "employe" table
     Employe employe1;
