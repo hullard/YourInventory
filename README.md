@@ -15,6 +15,10 @@ sudo apt-get install libmysqlclient
 -lmysqlcppconn
 -lmysqlclient
 
+//for using GTK+3, add these lines to the linker
+`pkg-config --cflags gtk+-3.0`
+`pkg-config --libs gtk+-3.0`
+
 //database "office" on localhost
 CREATE DATABASE office;
 
