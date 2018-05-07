@@ -41,6 +41,7 @@ GUI::GUI(int argc, char* argv[])
 void GUI::on_buttonFindEmploye_clicked(GtkWidget *widget, gpointer data)
 {
     g_print("Find Employe\n");
+
 }
 
 // temporary test function

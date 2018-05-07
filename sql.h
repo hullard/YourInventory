@@ -58,6 +58,7 @@ protected:
 private:
     sql::Connection* connection;
     sql::ConnectOptionsMap properties;
+
 };
 
 #endif // SQL_H

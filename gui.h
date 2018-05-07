@@ -25,6 +25,7 @@ private:
     static void on_buttonQuit_clicked(GtkWidget *widget, gpointer data);
 
     //void connectSignals();
+
 };
 
 #endif // GUI_H
