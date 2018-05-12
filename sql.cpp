@@ -103,4 +103,4 @@ void SQL::addComputer(const Computer& computer)
 SQL::~SQL()
 {
     delete connection;
-
+}

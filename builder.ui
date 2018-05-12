@@ -69,7 +69,7 @@
           </packing>
         </child>
         <child>
-          <object class="GtkEntry" id="entry1">
+          <object class="GtkEntry" id="employeFirstName">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
           </object>
@@ -79,7 +79,7 @@
           </packing>
         </child>
         <child>
-          <object class="GtkEntry" id="entry2">
+          <object class="GtkEntry" id="employeLastName">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
           </object>
@@ -89,7 +89,7 @@
           </packing>
         </child>
         <child>
-          <object class="GtkEntry" id="entry3">
+          <object class="GtkEntry" id="employeSex">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
           </object>
@@ -176,7 +176,7 @@
           </packing>
         </child>
         <child>
-          <object class="GtkEntry" id="entry4">
+          <object class="GtkEntry" id="computerName">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
           </object>
@@ -186,7 +186,7 @@
           </packing>
         </child>
         <child>
-          <object class="GtkEntry" id="entry5">
+          <object class="GtkEntry" id="computerEmploye">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
           </object>
@@ -196,7 +196,7 @@
           </packing>
         </child>
         <child>
-          <object class="GtkEntry" id="entry6">
+          <object class="GtkEntry" id="computerType">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
           </object>
@@ -206,7 +206,7 @@
           </packing>
         </child>
         <child>
-          <object class="GtkEntry" id="entry7">
+          <object class="GtkEntry" id="computerVendor">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
           </object>
@@ -216,7 +216,7 @@
           </packing>
         </child>
         <child>
-          <object class="GtkEntry" id="entry8">
+          <object class="GtkEntry" id="computerCPU">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
           </object>
@@ -226,7 +226,7 @@
           </packing>
         </child>
         <child>
-          <object class="GtkEntry" id="entry9">
+          <object class="GtkEntry" id="computerPurchaseDate">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
           </object>
@@ -236,7 +236,7 @@
           </packing>
         </child>
         <child>
-          <object class="GtkEntry" id="entry10">
+          <object class="GtkEntry" id="computerWarranty">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
           </object>
